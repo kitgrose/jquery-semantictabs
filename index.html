@@ -34,6 +34,14 @@
           <h3>Introduction</h3>
 
 <p>With this plugin you can make your tabs navigation element semantic following the HTML5 Outline pattern.</p>
+
+<div class="highlight"><pre><span class="nx">$</span><span class="p">(</span><span class="s2">"#mytabset"</span><span class="p">).</span><span class="nx">semantictabs</span><span class="p">({</span>
+  <span class="nx">panel</span><span class="o">:</span><span class="s1">'.panel'</span><span class="p">,</span>         <span class="c1">//-- Selector of individual panel body.</span>
+  <span class="nx">head</span><span class="o">:</span><span class="s1">'h3'</span><span class="p">,</span>              <span class="c1">//-- Selector of element containing panel head.</span>
+  <span class="nx">active</span><span class="o">:</span><span class="s1">':first'</span><span class="p">,</span>        <span class="c1">//-- Selector of panel to activate by default.</span>
+  <span class="nx">removeHead</span><span class="o">:</span> <span class="kc">true</span>        <span class="c1">//-- Remove headings content from panel.</span>
+<span class="p">});</span>
+</pre></div>
         </section>
 
         <footer>
